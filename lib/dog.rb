@@ -17,8 +17,13 @@ class Dog
     @breed
   end
   
+  def bark
+    puts "Woof!"
+  end
+  
 end
 
 fido = Dog.new 
-fido.name = "fido"
-fido.breed = "lab"
+puts fido.name = "fido"
+puts fido.breed = "lab"
+puts fido.bark
